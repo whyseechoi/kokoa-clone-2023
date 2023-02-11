@@ -1,2 +1,5 @@
 # kokoa-clone-2023
-Nomadcoders Kokoa clone practice
+
+Nomadcoders's Kokoa clone practice
+
+CSS got so much better
