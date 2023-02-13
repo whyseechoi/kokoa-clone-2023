@@ -1,0 +1,32 @@
+.status-bar {
+  display: flex;
+  justify-content: center;
+  /* CSS RESET 해준뒤에 status-bar를 띄워줌 */
+  padding: 5px 3px;
+}
+
+/* 자식 요소들이 부모를 3등분 함. */
+.status-bar__column {
+  width: 33%;
+}
+
+.status-bar__column:first-child span {
+  margin-right: 5px;
+}
+
+.status-bar__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+/* 오른쪽으로 정렬, 밀어넣기 */
+.status-bar__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* 배터리 아이콘 사이 공간 만들어주기 */
+.status-bar__column .fa-battery-full {
+  margin: 0px 5px;
+}
