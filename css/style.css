@@ -54,8 +54,10 @@ body {
 
 #login-form input[type="submit"] {
   background-color: var(--yellow);
+  /* 마우스 올리면 커서 모양 바뀜 */
   cursor: pointer;
   font-size: 15px;
+  /* 버튼 크기 바꾸기 */
   padding: 20px 0px;
   border-radius: 5px;
 }
