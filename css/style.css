@@ -12,4 +12,10 @@
 
 body {
   font-family: "Noto Sans KR", sans-serif;
+  height: 1300vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
 }
