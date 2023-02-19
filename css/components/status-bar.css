@@ -6,6 +6,7 @@
   /* nav-bar와 마찬가지로 status를 상단에 고정시켜줌 */
   position: fixed;
   width: 100%;
+  top: 0;
 }
 
 /* 자식 요소들이 부모를 3등분 함. */
