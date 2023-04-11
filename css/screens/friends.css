@@ -5,6 +5,8 @@
   padding: 15px 0px;
   font-size: 18px;
   margin-bottom: 5px;
+  margin-top: -15px;
+  /* screen-header에 margin-bottom:15px을 줘서 전체적으로 밀려나감 */
 }
 
 #friends-display-link i {
