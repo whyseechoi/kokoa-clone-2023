@@ -11,6 +11,15 @@
   font-weight: 600;
 }
 
-.screen-header__icons span {
+.screen-header__icons > span {
+  /* screen-header__icons 바로 아래 span에만 해당 */
   margin-left: 25px;
+  position: relative;
+  /* 자식에 들어가는 배지를 위해 relative로 설정 */
+}
+
+.screen-header__icons__notification {
+  position: absolute;
+  left: 20px;
+  bottom: 15px;
 }

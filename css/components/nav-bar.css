@@ -26,10 +26,6 @@
 }
 
 .nav__notification2 {
-  background-color: tomato;
-  width: 10px;
-  height: 10px;
-  border-radius: 15px;
   display: flex;
   position: absolute;
   left: 30px;
