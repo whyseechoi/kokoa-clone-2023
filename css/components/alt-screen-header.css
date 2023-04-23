@@ -18,3 +18,8 @@
 .alt-header__column:last-child {
   margin-left: auto;
 }
+
+.alt-header__column:last-child span:not(:first-child) {
+  /* 아이콘 사이 간격주기 */
+  margin-left: 20px;
+}
