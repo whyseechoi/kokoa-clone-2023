@@ -15,11 +15,16 @@
   margin-right: auto;
 }
 
-.alt-header__column:last-child {
-  margin-left: auto;
+.alt-header__column:nth-child(2) {
+  text-align: center;
 }
 
-.alt-header__column:last-child span:not(:first-child) {
-  /* 아이콘 사이 간격주기 */
+.alt-header__column:last-child {
+  margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.alt-header__column span:last-child {
   margin-left: 20px;
 }
